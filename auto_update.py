@@ -39,7 +39,7 @@ from tkinter import messagebox
 # ══════════════════════════════════════════════════════════════════════════════ #
 
 GITHUB_USER  = "pliskin15"       # ← troque pelo seu usuário GitHub
-GITHUB_REPO  = "contab"      # ← troque pelo nome do repositório
+GITHUB_REPO  = "cofre"      # ← troque pelo nome do repositório
 VERSAO_ATUAL = "1.0"               # ← atualize a cada release
 
 # ══════════════════════════════════════════════════════════════════════════════ #
