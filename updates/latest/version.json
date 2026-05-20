@@ -1,15 +1,15 @@
 {
   "version": "1.0.2",
-  "generated_at": "2026-05-20T18:51:24.102456+00:00",
+  "generated_at": "2026-05-20T19:28:25.426303+00:00",
   "base_url": "https://raw.githubusercontent.com/pliskin15/Cofre/updates/updates/files",
   "files": {
     "Cofre.exe": {
       "size": 13542405,
-      "sha256": "c7ccba1518b03ec85fba39a5e284f8bc043c352eb2cf70a7a58cf1a6ea0f2dad"
+      "sha256": "43ecea49742865cf7d56fc1f11a75ede3710f56c23ebc050edec87a2b191c74d"
     },
     "_internal/base_library.zip": {
       "size": 1402481,
-      "sha256": "d93cac1d6e0b6d175dfe05c469a3e3b18154b8b861ede6fe14a6ab9caedce079"
+      "sha256": "9fbf0391b71a96157cedfc1195ceab53e9574ae50aaa6cda6ab51683c3017299"
     },
     "_internal/libcrypto-3.dll": {
       "size": 5231984,
