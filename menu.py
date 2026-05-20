@@ -1,41 +1,43 @@
 
 import tkinter as tk
 from tkinter import ttk, messagebox
-import importlib
 import traceback
 from theme import (
     T, aplicar_estilos_ttk, botao_tema,
     registrar_callback, recolorir_widget, tema_atual,
 )
 
+# Imports estáticos — necessário para o PyInstaller empacotar os módulos
+from Conciliacao_Cartao import Conciliacao_Cartao as _fn_Conciliacao_Cartao
+from Conciliacao_PixMaquineta import Conciliacao_PixMaquineta as _fn_Conciliacao_PixMaquineta
+from pixqrs import Conciliacao_Pix as _fn_Conciliacao_Pix
+
 _MODULOS = [
     {
         "titulo":    "Conciliação Cartões",
         "subtitulo": "Débito / Crédito — Getnet",
         "icone":     "💳",
-        "modulo":    "Conciliacao_Cartao",
-        "funcao":    "Conciliacao_Cartao",   # nome da função de abertura
+        "funcao":    _fn_Conciliacao_Cartao,
         "cor_acento":"AZUL",
     },
     {
         "titulo":    "Conciliação PIX Maquineta",
         "subtitulo": "PIX via terminal Getnet",
         "icone":     "📲",
-        "modulo":    "Conciliacao_PixMaquineta",
-        "funcao":    "Conciliacao_PixMaquineta",
+        "funcao":    _fn_Conciliacao_PixMaquineta,
         "cor_acento":"VERDE",
     },
     {
         "titulo":    "Conciliação PIX QrCode",
         "subtitulo": "PIX via QrCode",
         "icone":     "📲",
-        "modulo":    "pixqrs",
-        "funcao":    "Conciliacao_Pix",
+        "funcao":    _fn_Conciliacao_Pix,
         "cor_acento":"AMARELO",
     },
 ]
 
 def _abrir_modulo(mod_info: dict, master: tk.Tk) -> None:
+<<<<<<< Updated upstream
     nome_mod  = mod_info["modulo"]
     nome_func = mod_info["funcao"]
     try:
@@ -54,6 +56,11 @@ def _abrir_modulo(mod_info: dict, master: tk.Tk) -> None:
             f"O arquivo '{nome_mod}.py' não foi encontrado.\n"
             f"Verifique se ele está na mesma pasta que menu.py.",
         )
+=======
+    """Chama a função de abertura do módulo."""
+    try:
+        mod_info["funcao"](master)
+>>>>>>> Stashed changes
     except Exception:
         messagebox.showerror(
             "Erro ao abrir módulo",
@@ -65,7 +72,7 @@ class CardModulo(tk.Frame):
     def __init__(self, parent, mod_info: dict, master_root: tk.Tk, **kwargs):
         super().__init__(parent, **kwargs)
         self._mod      = mod_info
-        self._win_root = master_root   # NÃO usar self._root — conflita com tk.Frame._root()
+        self._win_root = master_root
         self._build()
         self._bind_hover()
 
@@ -140,7 +147,6 @@ class CardModulo(tk.Frame):
         _abrir_modulo(self._mod, self._win_root)
 
     def reaplicar_tema(self):
-        """Chamado ao trocar de tema — recria o conteúdo interno."""
         for child in self.winfo_children():
             child.destroy()
         self._build()
@@ -165,7 +171,6 @@ class MenuPrincipal:
         self._win.resizable(False, False)
         self._win.configure(bg=T("BG"))
 
-        # Centraliza na tela
         self._win.update_idletasks()
         w = self._win.winfo_width()
         h = self._win.winfo_height()
@@ -174,7 +179,6 @@ class MenuPrincipal:
         self._win.geometry(f"+{x}+{y}")
 
     def _build(self):
-
         self._topbar = tk.Frame(self._win, bg=T("PAINEL"), pady=10)
         self._topbar.pack(fill="x")
 
@@ -216,7 +220,6 @@ class MenuPrincipal:
         self._lbl_rodape.pack()
 
     def _montar_cards(self):
-
         for child in self._frame_cards.winfo_children():
             child.destroy()
         self._cards.clear()
@@ -234,7 +237,6 @@ class MenuPrincipal:
         aplicar_estilos_ttk(self._style)
         self._win.configure(bg=T("BG"))
 
-        # Topbar
         self._topbar.config(bg=T("PAINEL"))
         for w in self._topbar.winfo_children():
             try:
