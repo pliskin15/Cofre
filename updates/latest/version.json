@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0",
-  "generated_at": "2026-05-20T12:33:55.648581+00:00",
+  "version": "1.0.2",
+  "generated_at": "2026-05-20T18:51:24.102456+00:00",
   "base_url": "https://raw.githubusercontent.com/pliskin15/Cofre/updates/updates/files",
   "files": {
     "Cofre.exe": {
-      "size": 22525127,
-      "sha256": "a2db3cea98f0120524c5f94e86efd348dd284c911c2fde0034fc8129e208350c"
+      "size": 13542405,
+      "sha256": "c7ccba1518b03ec85fba39a5e284f8bc043c352eb2cf70a7a58cf1a6ea0f2dad"
     },
     "_internal/base_library.zip": {
       "size": 1402481,
-      "sha256": "1031235cd7fec02a8ae60bfd73cfbc117b4516069da73b0a1a962722c5e1bf64"
+      "sha256": "d93cac1d6e0b6d175dfe05c469a3e3b18154b8b861ede6fe14a6ab9caedce079"
     },
     "_internal/libcrypto-3.dll": {
       "size": 5231984,
@@ -23,17 +23,9 @@
       "size": 794992,
       "sha256": "cf1a5fdcefa3daf69041f31f98ece1d7911ca4fcb8e9f1043b4d0f459ae4c936"
     },
-    "_internal/mmh3.cp313-win_amd64.pyd": {
-      "size": 51200,
-      "sha256": "c5f1191969453766012bf0a8c9a876d6cf6ff6a361c257fda7ce3a9d80cfb0fd"
-    },
     "_internal/pyexpat.pyd": {
       "size": 217944,
       "sha256": "b5f57327418750229656c30a809308669797cf30d7da3705f8cd584c2b8a038b"
-    },
-    "_internal/pyroaring.cp313-win_amd64.pyd": {
-      "size": 631808,
-      "sha256": "1c743c699b27d9b131adb098ab6b4589e987d6d7031d6f1c64f8394f431e72fb"
     },
     "_internal/python3.dll": {
       "size": 72536,
@@ -1311,10 +1303,6 @@
       "size": 269824,
       "sha256": "0e6a8060576cc0ca55b7116b7e35ca280db9408a40379f92a9b7521581656a3a"
     },
-    "_internal/PIL/_imagingft.cp313-win_amd64.pyd": {
-      "size": 2063872,
-      "sha256": "948c9f338409979f34d4dda544b4c178f41626daed584e448287c68de2efa3b7"
-    },
     "_internal/PIL/_imagingmath.cp313-win_amd64.pyd": {
       "size": 25088,
       "sha256": "ba2fccbff2187b21d74def3ed60483f03996f28ec8bbcce61790824b357e48b5"
@@ -1331,17 +1319,9 @@
       "size": 62464,
       "sha256": "4a781c4485b8fce38eea67f695079882786c0e18dbff37fd2b6fb986db05a1d6"
     },
-    "_internal/pydantic_core/_pydantic_core.cp313-win_amd64.pyd": {
-      "size": 5437440,
-      "sha256": "77077f8f3b7dfbd9f6d4386f5ce424f72085e5fbfcd1593759fcfa1849f586e4"
-    },
     "_internal/pywin32_system32/pywintypes313.dll": {
       "size": 135680,
       "sha256": "9bb6dece38380abc747dce9ba8b0834a2bec469bc942dbcc8658e30ebdfb59a4"
-    },
-    "_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt": {
-      "size": 1335,
-      "sha256": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b"
     },
     "_internal/tcl8/8.4/platform-1.0.19.tm": {
       "size": 11708,
@@ -3782,10 +3762,6 @@
     "_internal/tzdata/zoneinfo/US/Samoa": {
       "size": 146,
       "sha256": "650d918751366590553063cd681592fdca8a09957e0ce2c18d6697ec385ef796"
-    },
-    "_internal/websockets/speedups.cp313-win_amd64.pyd": {
-      "size": 11776,
-      "sha256": "c2d9f00b6878d80705a97c1d0ea719551344cb030252b482e1dfbeba72e38307"
     },
     "_internal/win32/win32pdh.pyd": {
       "size": 34816,
