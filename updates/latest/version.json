@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-20T11:56:42.365999+00:00",
+  "generated_at": "2026-05-20T12:21:04.389744+00:00",
   "base_url": "https://raw.githubusercontent.com/pliskin15/Cofre/updates/updates/files",
   "files": {
     "Cofre.exe": {
@@ -171,14 +171,6 @@
       "size": 126976,
       "sha256": "3ccacfdbf227750083980a7de0c982be26dfebac26e4fa599d1e7a5866e92a21"
     },
-    "_internal/click-8.3.1.dist-info/METADATA": {
-      "size": 2621,
-      "sha256": "5d9781acc004d2085313cf128dfad20ee4b2342a413e9971251d6d6f00fda198"
-    },
-    "_internal/click-8.3.1.dist-info/licenses/LICENSE.txt": {
-      "size": 1475,
-      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
-    },
     "_internal/contourpy/_contourpy.cp313-win_amd64.pyd": {
       "size": 458752,
       "sha256": "87cf9ea89624192e2a67f078980b0214061d384f4d14d14248ed79eca165e139"
@@ -187,57 +179,9 @@
       "size": 9245696,
       "sha256": "92f58bb4f01a75a0ef4dd9425dc2a96ddfe25fc93fd9dc11ea8f0d05b7a4f085"
     },
-    "_internal/cryptography-46.0.3.dist-info/METADATA": {
-      "size": 5748,
-      "sha256": "6f1d8bc82126395502f051f986c18465ec163e2668208613ab484cf66bbdaf8b"
-    },
-    "_internal/cryptography-46.0.3.dist-info/licenses/LICENSE": {
-      "size": 197,
-      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
-    },
-    "_internal/cryptography-46.0.3.dist-info/licenses/LICENSE.APACHE": {
-      "size": 11360,
-      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
-    },
-    "_internal/cryptography-46.0.3.dist-info/licenses/LICENSE.BSD": {
-      "size": 1532,
-      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
-    },
     "_internal/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz": {
       "size": 156400,
       "sha256": "d3ea52e7b6e968de0d884df1288193596fa95b803db4f92a18279a7398004475"
-    },
-    "_internal/h2-4.3.0.dist-info/METADATA": {
-      "size": 5139,
-      "sha256": "b2f47f8201491420642c229e5fcbcbd5576c7afd023264dcb59b5eb22dcbb265"
-    },
-    "_internal/h2-4.3.0.dist-info/top_level.txt": {
-      "size": 3,
-      "sha256": "1e2ba5c7c2b12368c550cd5d1bbf8265e4643b78f9d0c07008b1b7e95aeafa42"
-    },
-    "_internal/h2-4.3.0.dist-info/licenses/LICENSE": {
-      "size": 1102,
-      "sha256": "7a65a5af0cbabf1c16251c7c6b2b7cb46d16a7222e79975b9b61fcd66a2e3f28"
-    },
-    "_internal/holidays-0.96.dist-info/METADATA": {
-      "size": 53000,
-      "sha256": "741cc87babc1755887143f119bfd953708248f502f7ed478f7af2ac9bc758299"
-    },
-    "_internal/holidays-0.96.dist-info/REQUESTED": {
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    "_internal/holidays-0.96.dist-info/top_level.txt": {
-      "size": 9,
-      "sha256": "55b1ab38248cf95da4cedb8bffb0a80ca2ce83339cf39b9e16c9e0ed561eaeb4"
-    },
-    "_internal/holidays-0.96.dist-info/licenses/CONTRIBUTORS": {
-      "size": 3060,
-      "sha256": "4818b15dae66e38dcc0785c6dda6af9e29d358537a40b848deadd3699bae844d"
-    },
-    "_internal/holidays-0.96.dist-info/licenses/LICENSE": {
-      "size": 1246,
-      "sha256": "a9a45b34c5338850f987329f35102934ec96d2b3a44563998bccc01bd9c9e3e9"
     },
     "_internal/kiwisolver/_cext.cp313-win_amd64.pyd": {
       "size": 160256,
@@ -246,18 +190,6 @@
     "_internal/markupsafe/_speedups.cp313-win_amd64.pyd": {
       "size": 13312,
       "sha256": "a4404b6f8e4bab2e782b373507a30ab7b7130c8887f62bf0e4e4a9b65d0add30"
-    },
-    "_internal/markupsafe-3.0.3.dist-info/METADATA": {
-      "size": 2764,
-      "sha256": "f0ae5dbb09d50fb5f7632c3d53f0220995ef76019e5892e0a545740136a4e3cb"
-    },
-    "_internal/markupsafe-3.0.3.dist-info/top_level.txt": {
-      "size": 11,
-      "sha256": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5"
-    },
-    "_internal/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt": {
-      "size": 1503,
-      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4"
     },
     "_internal/matplotlib/ft2font.cp313-win_amd64.pyd": {
       "size": 925696,
@@ -1143,22 +1075,6 @@
       "size": 4527104,
       "sha256": "132dc29d6f8b16bc7362b59a837098a78a5e4c01e81b7832102eb0fc9c135e27"
     },
-    "_internal/numpy-2.3.4.dist-info/DELVEWHEEL": {
-      "size": 462,
-      "sha256": "5552ba6ef7e3cb7a4f1e267790450ccc9b72cc4494ec5897fe25aaee64aef28b"
-    },
-    "_internal/numpy-2.3.4.dist-info/entry_points.txt": {
-      "size": 220,
-      "sha256": "ec26fade0c8bdac211a6c1dd003a65eb16885b925395423e93fcaa115af4052c"
-    },
-    "_internal/numpy-2.3.4.dist-info/LICENSE.txt": {
-      "size": 46841,
-      "sha256": "596b953e1dcbe829b32ae444387efa15003fc6abdeca8a2179f364a6364c286e"
-    },
-    "_internal/numpy-2.3.4.dist-info/METADATA": {
-      "size": 60935,
-      "sha256": "b1e940b65cb0abe04d901fac9205f8e4c8c4cb0ef18a7745f9e5f97b153a2d75"
-    },
     "_internal/numpy.libs/libscipy_openblas64_-860d95b1c38e637ce4509f5fa24fbf2a.dll": {
       "size": 20403712,
       "sha256": "860d95b1c38e637ce4509f5fa24fbf2a98ba8696f9f3d28bf184bee74ad9a325"
@@ -1415,14 +1331,6 @@
       "size": 62464,
       "sha256": "4a781c4485b8fce38eea67f695079882786c0e18dbff37fd2b6fb986db05a1d6"
     },
-    "_internal/pydantic-2.12.5.dist-info/METADATA": {
-      "size": 90587,
-      "sha256": "a3ba23e895191fed69b8323cbcbcdc82984ca0b6a3cdc62c48a2341886a9c08d"
-    },
-    "_internal/pydantic-2.12.5.dist-info/licenses/LICENSE": {
-      "size": 1129,
-      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
-    },
     "_internal/pydantic_core/_pydantic_core.cp313-win_amd64.pyd": {
       "size": 5437440,
       "sha256": "77077f8f3b7dfbd9f6d4386f5ce424f72085e5fbfcd1593759fcfa1849f586e4"
@@ -1430,22 +1338,6 @@
     "_internal/pywin32_system32/pywintypes313.dll": {
       "size": 135680,
       "sha256": "9bb6dece38380abc747dce9ba8b0834a2bec469bc942dbcc8658e30ebdfb59a4"
-    },
-    "_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE": {
-      "size": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-    },
-    "_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA": {
-      "size": 4648,
-      "sha256": "6a7b90effee1e09d5b484cdf7232016a43e2d9cc9543bcbb8e494b1ec05e1f59"
-    },
-    "_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED": {
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    "_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt": {
-      "size": 19,
-      "sha256": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0"
     },
     "_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt": {
       "size": 1335,
@@ -3894,30 +3786,6 @@
     "_internal/websockets/speedups.cp313-win_amd64.pyd": {
       "size": 11776,
       "sha256": "c2d9f00b6878d80705a97c1d0ea719551344cb030252b482e1dfbeba72e38307"
-    },
-    "_internal/websockets-15.0.1.dist-info/entry_points.txt": {
-      "size": 51,
-      "sha256": "0e7867e1d9b912c23864c02c1e574617a0b005766b1979d1edc9cadbe5d1ef36"
-    },
-    "_internal/websockets-15.0.1.dist-info/LICENSE": {
-      "size": 1538,
-      "sha256": "0f44514998aca209d3482d10204a8adf2aa4296ff157a36a5c0922f2280632d3"
-    },
-    "_internal/websockets-15.0.1.dist-info/METADATA": {
-      "size": 6996,
-      "sha256": "841a67852caccd5d2772768f5fa9db1e9d2202e13bc7655d7e31cbcd09f3d789"
-    },
-    "_internal/websockets-15.0.1.dist-info/top_level.txt": {
-      "size": 11,
-      "sha256": "08ca5d2a49712acbd980283296dc5458e1e26d95d9d6e60856971af71b10f079"
-    },
-    "_internal/werkzeug-3.1.4.dist-info/METADATA": {
-      "size": 4029,
-      "sha256": "5126b9dbb9177f389c70555d81d3b82f2a9e0ce1c79c8c70255f3b5721c91e30"
-    },
-    "_internal/werkzeug-3.1.4.dist-info/licenses/LICENSE.txt": {
-      "size": 1475,
-      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
     },
     "_internal/win32/win32pdh.pyd": {
       "size": 34816,
